@@ -1,0 +1,28 @@
+# YOROZU Standard .gitignore
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDES
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+GAS_PROJECT/
+*.drawio.bkp
+*.drawio.dtmp
+
+# Documentation specs (internal)
+ANTIGRAVITY_AGENT_CONTROL_SPEC.MD
+*_SPEC.MD
+
+# Node modules (if applicable)
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
